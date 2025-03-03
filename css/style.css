@@ -1,0 +1,32 @@
+/*Skip to Main Each page has a "Skip to Main Content"
+Links to an external site.
+ link that only appears when it has focus (using the tab key) and works
+When selected it should jump me to the main tag. 
+    Should be hidden upon page load
+    When it has focus it becomes visible
+    When selected it jumps me to the main tag
+    You can use the same styling and format you used for HW#3
+Navigation-  All four pages are linked via a common navigation structure that works well for a mobile device
+    Order of navigation elements should stay the same on all of your pages  
+    You use CSS to indicate the current page (Active page) within the links in the navigation
+    Your menu should work for a smaller mobile view 
+    I can easily click on all links and buttons when viewing this site on my mobile device. 
+    Each page should have a unique name (H1) which should match with your title to some degree
+Footer: You should have a consistent footer across your site - this means your footer should be the same across all of your pages and the information should be the same across all of your pages. 
+
+
+Your design is visually appealing and modern looking
+Your design fits within and utilizes the UM Branding Guidelines
+ 
+all content should be available on mobile devices & smartphones
+    
+        The font is big enough for me to click on each link from a mobile device (we recommend checking on your device)
+        Use of fluid measurements (%, rem, em, fr, vw, etc.) where possible and where it makes sense for your design
+        We are expecting you to heavily use Grid for this assignment - how you choose to deploy it is up to you. 
+        You should use Grid on at least 2 pages (though you can use it for all 4!)
+        Using just a 1 column Grid isn't an example of good responsive web design (RWD)
+        You can use Flex (but are not required to )
+
+accessibility stuff 
+
+*/
