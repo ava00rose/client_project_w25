@@ -12,11 +12,10 @@
 .skip {
     position: absolute; 
     top: -40px;
-    background-color: white; 
 }
 .skip:focus {
     top: 20px;
-    background-color: white; 
+    color: white; 
 }
 /*might want to change */
 :focus {
