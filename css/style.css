@@ -12,6 +12,10 @@
 .skip {
     position: absolute; 
     top: -40px;
+
+}
+.skip a{ 
+    color: white; 
 }
 .skip:focus {
     top: 20px;
@@ -87,7 +91,7 @@ header h1{
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px; 
     padding: 20px;
     max-width: 1200px; 
@@ -105,7 +109,6 @@ main img {
     width: 100%;  /* Ensures images fit within their div */
     height: auto; 
     border-radius: 5px;
-    padding: 0px, 0px, 0px, 20px; 
 }
 
 .intro{ 
