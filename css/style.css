@@ -109,6 +109,7 @@ main img {
     width: 100%;  /* Ensures images fit within their div */
     height: auto; 
     border-radius: 5px;
+    padding: 0px 0px 0px 20px; 
 }
 
 .intro{ 
