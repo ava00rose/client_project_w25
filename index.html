@@ -98,9 +98,40 @@
         </section>
         <!-- Content taken & modified from UMGPT with the prompt, "write me a webpage of intro content to help University of Michigan Master's students navigate different resources for being successful in grad school - this will include academic resources, physical health resources, mental health resources, support for life outside the classroom"
         UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
+
+        <section id="question-form">
+        <form
+            action="https://formspree.io/f/xblgyzzk"
+            method="POST"
+            >
+            <fieldset>
+            <h1><legend>Question Form</legend></h1>
+            <br>
+
+            <label for="name_id">Your name:</label>
+            <input type="text" placeholder="Enter Your Name" name = "name" id="name_id">
+
+            <label for="email">Your Email:</label>
+            <input type="email" name = "email_id" id="email">
+          
+            <label for="number">Your UMID:</label>
+            <input type="id" name = "number_id" id = "number">
+            <br>
+            <br>
+            <label for="message">Ask a question:</label>
+            <textarea id="message"></textarea>
+
+            <input type="submit" value="Submit">
+
+            </fieldset>
+        </form>
+    </section>
     </main>
     <footer>
         <p tabindex=0 >UMSI Academic Advising | 105 S State St., Ann Arbor, MI 48109-1285 | <a href="https://www.si.umich.edu/about-umsi/contact-us"> Contact Us </a></p>
+        &nbsp;  <!-- https://stackoverflow.com/questions/17462743/word-space-not-working-in-html-page -->
+        <p tabindex=0> | ©<script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script>
+        </p>
     </footer>
 </body>
 </html>
