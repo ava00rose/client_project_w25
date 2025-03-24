@@ -3,16 +3,9 @@
    Not much use of grid (only on 1 css style sheet)
         You do a good job at using % for scaling, but some text is hardcoded (for example, main div in style.css has lots of hardcoded px)
         There is also issues when 700px mobile view is selected. Client has to scroll across the web-page to read it fully. Good example of why more grid should be used!
-    nav: only color alone was used to indicate which page user is on.
     When mobile view is resized to 700px, not all 3 column divs show   up simultaneously. The last one is almost always cut off, and this can make the user frustrated.
-
     Your Tablet or Desktop view should have a media query (min-width)
      evolve to fit the space available and significant changes should be made to reflect the increased screen size, impacting all pages.
-
-    404 page
-    Your footer must dynamically update to show the current year using Javascript
-
-    FORM!!This should be something unique for your site. This could involve advanced CSS, Javascript, forms, etc. 
 
 */
 
@@ -65,6 +58,7 @@ nav ul li a {
 }
 nav ul li a:hover,
 nav ul li a:focus {
+    border: 2px solid #FFCB05;
     color: #FFCB05; 
 }
 nav ul li a.active {
@@ -156,17 +150,6 @@ h3{
 .intro2 { 
     grid-column: 1/ span 2; 
 }
-
-/*An error message: your users need to know right away that they’ve landed on an error page. Make it clear and noticeable so there’s no confusion.
-
-Brand look and feel: ensure that your 404 page reflects your site’s overall design. Keep the same logo, colors, and style so it feels like part of the website and not a mistake.
-
-A light touch: adding a bit of humor or a lighthearted message can make the experience less frustrating for the user. Just be careful not to overdo it.
-
-Link to your best content: provide 3 or 4 links to popular or interesting parts of your site. This can help redirect lost visitors and keep them engaged instead of leaving your website.
-
-Call to action: since your 404 page functions like a landing page, include a CTA (call to action). This could be a signup button, download link, or at the very least, a search box so users can easily find what they’re looking for.
-*/
 /*404 styling*/
 .error{ 
     background-color: #00274C;  
